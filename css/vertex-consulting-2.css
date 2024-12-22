@@ -1,0 +1,711 @@
+
+.arrow-up{
+   margin:0px 0px 0px 10px ;
+   color:#343F72;
+}
+.arrow-up-white{
+   margin:0px 0px 0px 10px ;
+   color:white;
+}
+.fa-arrow-up{
+   transform:rotate(45deg); 
+}
+.sticky{
+   position:sticky;
+   top:0;
+   z-index:2;
+}
+.dropdown-toggle::after{
+    content:"";
+    display:none;
+}
+.vertex-consulting{
+    width:50%;  
+}
+.btn.show{
+    border-color:transparent !important;
+}
+.btn:active{
+    border-color:transparent !important;
+}
+.solutions-dropdown::after{
+    content:"\f107";
+    background-color: black;
+ }
+.dropdown-toggle:hover .dropdown-menu{
+    display: block;
+}
+/*.navbar{  
+    margin-top:0px;  
+}*/
+.navbar-container{
+   padding:0px;
+   margin:0px;
+    background: rgba(255, 255, 255,1);
+}
+.navbar-toggler{
+    border-color:transparent;
+}
+.navbar-toggler:focus{
+    box-shadow:none !important;
+}
+.dropdown-toggle{
+    margin-right:40px;
+}
+.contact-us{
+    margin-right:0px;
+}
+
+.courses-dd:hover .dropdown-menu{
+    display:block;
+    flex-grow:1;
+}
+.dropdown-menu li{
+    margin:20px 100px 10px 0px;
+}
+.dropdown-menu li a{
+    color:#343F72;
+    font-size: 18px;
+    font-weight:600;
+}
+.dropdown-menu {
+   border-color:transparent;
+   /*box-shadow:5px 5px 10px rgb(172, 172, 172);*/
+}
+.dropdown-toggle{
+    font-size:22px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color:#343F72;
+}
+
+.dropdown-menu li a:hover{
+    color:black;
+    background-color: transparent;
+}
+.image-container{
+   width:45%;
+}
+/******top second area*******/
+.top-second-area{
+    background-color:#343F72;
+    padding:15px 0px;
+    color:white;
+ }
+ .social-contact{
+    justify-content: flex-end;
+    display: flex;
+ }
+ .mobile-contact ,.email-contact{
+    display:flex;
+    padding:0px 30px;
+ }
+ .email-contact{
+    padding-right:0px;
+ }
+ .mobile-contact{
+    border-right:1px solid white;
+ }
+ .fa-phone,.fa-envelope{
+    line-height:1.5;
+ }
+ .contact{
+    margin-left:10px;
+ }
+ .email{
+    text-decoration: none;
+    color:white;
+ }
+ .email{
+    margin-left:10px;
+ }
+ /******banner-section*******/
+ .vertex-consulting-office-banner{
+    width:100%;
+    height:400px;
+    background-image:url("../images/vertex-front-office-image.png") ;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+ }
+ /****three color line*********/
+ .blue-line{
+    background-color: #09ABEB;
+    padding:7px 0px;
+ }
+ .orange-line{
+    background-color: #F46718;
+    padding:7px 0px;
+ }
+ .yellow-line{
+    background-color: #FDC51A;
+    padding:7px 0px;
+ }
+
+ 
+/*****technology adding value to your bussiness*******/
+ .left-section{
+      margin:40px 0px;
+}
+.technology{
+    width:100%;
+    height:100%;
+}
+ .right-section{
+  width:90%;
+  height:100%;
+  display:flex;
+  flex-direction:column;
+  justify-content: space-evenly;
+  align-items:left;
+  /*padding:30px;*/
+}
+.right-section{
+   margin:0px;
+}
+.right-section h1{
+    color:#343F72;
+}
+/*.technology-adding-value .right-section .main-content{
+    color:#343F72;
+    font-size:24px;
+    font-weight:400;
+}*/
+.main-content{
+    color:#343F72;
+    font-size:24px;
+    font-weight:400;
+}
+
+.know-more-about-us-btn{
+    width:65%;
+    padding: 13px 15px;
+    background-color: #E2F2FF;
+    border: 1px solid #008DFF8F;
+    border-radius: 5px;
+    display:flex;
+    justify-content: center;
+    font-size: 21px;
+    font-weight: 500;
+}
+.know-more-about-us-btn a{
+   text-decoration: none;
+   color: #343F72;
+}
+/*************
+       main area-2
+**********************/
+ .main-area-2{
+    background-color:#F6F6F6;
+    padding-bottom: 50px;
+ }
+ .solutions{ 
+    height:150px; 
+    margin:39px 0px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+ }
+ .solutions-img-title{
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    padding:20px 0px;
+ }
+ .blue-bottom-line{
+    border:5.9px solid #343F72;
+    border-radius:5px;
+    width:100%;
+    margin:0px;
+ }
+ .solutions h2{
+    color:#343F72;
+ }
+ .solutions p{
+    font-size:27px;
+    padding:0px 70px;
+    color:#343F72;
+    font-weight:600;
+    opacity:0.9;
+    /*margin-top:20px; */  
+ }
+ .bottom-line{
+    display:flex;
+    width:100%;
+ }
+ .skyblue-bottom-line{
+    background-color:#09ABEB;
+    padding:5px 0px;
+    width:33.33%;
+    border-radius:5px 0px 0px 5px;
+ }
+ .red-bottom-line{
+    background-color:#F46718;
+    padding:5px 0px;
+    width:33.33%;
+ }
+ .yellow-bottom-line{
+    background-color:#FDC51A;
+    padding:5px 0px;
+    width:33.33%;
+    border-radius:0px 5px 5px 0px;
+ }
+ .single-line-text p{
+    color:#343F72;
+    font-size: 26px;
+    font-weight:600;
+    margin:0px 0px 50px 0px;
+ }
+ /********area-2 sub-section-2 styles***********/
+ .text-content{
+    display:flex;
+   flex-direction:column;
+   height:100%;
+   justify-content: space-around;
+ }
+ .title{
+    margin-left:20px;
+ }
+ .video-section{
+   width:100%;
+ }
+ .video{
+    width:100%;
+    border-radius:7px;
+ }
+.img-n-title{
+    display:flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom:20px;
+}
+.microsoft-dynamics h2{
+    width:50%;
+    margin-left:20px;
+}
+.know-more-Btn{
+   display: flex;
+   justify-content: center;
+    width:35%;
+   padding:13px 0px;
+    background-color:#343F72;
+    border-radius:5px; 
+    font-weight:500;
+    border:none;
+    font-size:20px;
+ }
+ .know-more-Btn a{
+   text-decoration: none;
+   color:white;
+ }
+ 
+ 
+ 
+
+/********area-2 sub-section-4 styles*********/
+.area-2-sub-sec-4{
+    padding:50px;
+    background-color:#363636;
+    border-radius:0px 0px 15px 15px;
+    color:white;
+    margin-top:50px;
+}
+.area-2-sub-sec-4 p{
+    font-size:20px;
+    letter-spacing: 0.4px;;
+ }
+ .micro-dynamics-nav{
+    display:flex;
+    justify-content:space-around;
+    width:100%;
+    height: 100%;
+     align-items: center;
+ }
+ .micro-dynamics-nav h2{
+  margin:20px 70px 0px 40px; 
+ }
+ .micro-dynamics-nav-content{
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-start;
+ }
+ .know-more-blue-Btn{
+   display: flex;
+   justify-content: center;
+    width:35%;
+   padding:13px 0px;
+   background-color:#09ABEB;
+    border-radius:5px; 
+    font-weight:500;
+    border:none;
+    font-size:20px;
+    margin-top:25px;
+ }
+ .know-more-blue-Btn a{
+   text-decoration: none;
+   color:white;
+ }
+ 
+.power-bi-video ,.power-apps-video{
+   border:15px solid black;
+   border-radius:7px;
+}
+/*******area-2 sub section 5 styles*******/
+.area-2-sub-sec-5{
+    margin-top:50px;
+}
+
+/**********main-area-3*************/
+
+.main-area-3{
+   width:100%;
+   background-color:#343F72;
+}
+.main-area-3 h4{
+   color:white;
+   font-weight:400;
+   opacity:0.9;
+}
+.it-services-title{
+   height:100%;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-left:40px;
+  color:white;
+}
+.it-services-title h1{
+   text-align: center;
+}
+.infra-and-cloud::after{
+   content:"";
+   padding-bottom:50px;
+   width:85%;
+   display:flex;
+   border-bottom: 1px solid rgba(255, 255, 255,0.5);
+}
+.implementation::after{
+   margin-left:60px;
+   content:"";
+   padding-bottom:50px;
+   width:85%;
+   display:flex;
+   border-bottom: 1px solid rgba(255, 255, 255,0.5);
+}
+.infra-and-cloud{
+   height: 65%;
+  border-right:1px solid rgba(255, 255, 255,0.5);
+}
+.system-development{
+   height: 70%;
+   border-right:1px solid rgba(255, 255, 255,0.5);
+}
+.it-services h3{
+   width:70%;
+   color:white;
+}
+.icons{
+   width:140px;
+   height:140px;
+}
+
+.explore-btn{
+   border-radius: 7px;
+   background: white;
+   padding:15px 15px;
+   margin-bottom: 40px;
+}
+.explore-btn a{
+   font-weight: 600;
+   font-size: 20px;
+   text-decoration: none;
+   color:#343F72;
+}
+/*************** 
+          area-3 sub-section-2 styles
+          **********/
+.exclusive-partner-section{
+   width:100%;
+    color:white;
+    background:#363636; 
+    padding:60px 0px;   
+}
+.microsoft{
+   
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+    height:100%;
+ } 
+ .microsoft h2{
+   font-size: 45px;;
+ }        
+ .microsoft::after{
+    content:"";
+    margin-left:20px;
+    border:1px solid rgba(255, 255, 255,0.2);
+    height:100%;
+ }       
+ .exclusive-partner-section h1{
+    text-align: center;
+    color:white;
+   margin-top:10px;
+ } 
+ .exclusive-partner-section p{
+    font-size:18px;
+ } 
+ /***********contact sales styles**************/
+ .contact-sales{
+   padding:66px 0px;
+   width:100%;
+   background-color:rgb(255, 255, 255);
+ }
+ .contact-sales-title{
+   text-align: center;
+   font-size:50px;
+   color:#363636;
+ } 
+ .message{
+   font-size:26px;
+   font-weight:600;
+
+ }   
+.call-us-details-sec p{
+   width:100%;
+    margin:0px;
+    font-size: 26px;
+    color:#363636;
+    font-weight:600;
+} 
+.message-symb-title{
+   width:100%;
+   height:100%;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   border-right:1px solid rgba(0, 0, 0, 0.4);
+}
+
+.call-us-details-sec a{
+   text-decoration: none;
+   color:rgba(54, 54, 54,0.8);
+   font-weight: 500;
+} 
+.time-details{
+   margin:30px 0px;
+}
+
+.fax-email{
+   width:100%;
+   display:flex;
+   flex-direction:column;
+   justify-content: center;
+   border-left:1px solid rgba(0, 0, 0, 0.4);
+}
+.icon{
+   width:40px;  
+}
+.fax-email span{
+   margin:8px 0px;
+}
+/********footer styles**********/
+footer{
+   background-color:#F5F5F5;
+}
+.footer-first-col li{
+    list-style: none;
+    padding-bottom:16px;
+}
+.footer-first-col a{
+      text-decoration: none;
+      color:#363636;
+      font-size:22px;
+      font-weight:700;
+      opacity:0.9;
+}
+.second-col-title{
+   color:#363636;
+   font-size:22px;
+   font-weight:700;
+   opacity:0.9;
+}
+.footer-second-col{
+   padding:0px;
+}
+.footer-second-col li{
+   list-style: none;
+   padding:0px 0px 10px 0px;
+   margin:0px;
+}
+.footer-second-col a{
+     text-decoration: none;
+     color:#363636;
+     font-size:18px;
+}
+.footer-third-col{
+   width:100%;
+   color:#363636;
+   font-weight:400;
+}
+.brown-vertex-logo{
+   width:90%;
+}
+.footer-icon{
+   margin-left:20px;
+}
+
+ /*******media queries**********/
+
+ @media screen and (max-width:576px){
+    .know-more-about-us-btn{
+        width:100%;
+    }
+     .right-section{
+        padding:30px;
+    }
+    .micro-dynamics-nav h2{
+        margin:20px 0px 0px 40px; 
+       }
+       .area-2-sub-sec-4{
+        padding:25px;
+       }
+       .microsoft h2{
+         font-size: 30px;;
+       } 
+       .footer-first-col{
+         padding:0px;
+       }
+       .social-contact{
+         justify-content: flex-start;
+         display: flex;
+         flex-direction: column;
+      }
+      .mobile-contact{
+         border-right:transparent;
+      }
+      .know-more-Btn{
+         width:60%;
+      }
+      .know-more-blue-Btn{
+         width:70%;
+      }
+      .icons{
+         width:100px;
+         height:100px;
+      }
+      .footer-icon{
+         margin-left:5px;
+      }
+      .top-second-area{
+         display:none;
+      }
+ }
+ @media only screen and (max-width:991px){
+   .sticky{
+      position:relative;
+   }
+    .navbar-collapse {
+        width: 100%;
+        position: absolute;
+        top: 100%;
+        background-color: white;
+    }
+    .navbar-nav .dropdown-menu{
+        position:absolute;
+    }
+    .vertex-consulting{
+        width:50%;
+    }
+    .image-container{
+        width:60%;
+     }
+     .solutions p{   
+        padding:0px 20px;
+        margin-top: 20px;
+     }
+     .microsoft::after{
+        content:"";
+       display:none;
+     }
+     .infra-and-cloud::after{
+      content:"";
+      display:none;
+   }
+   .implementation::after{
+      
+      content:"";
+     display:none;
+   }
+   .infra-and-cloud{
+     border:transparent;
+   }
+   .system-development{     
+      border-right:transparent;
+   }
+   .it-services h3{
+      width:100%;
+   }
+   
+ }
+ @media screen and (min-width:992px) and (max-width:1199px){
+    .vertex-consulting{
+        width:100%;
+    }
+    .image-container{
+        width:100%;
+        margin-right:10px;
+     }
+     img.logo{
+      width:70px;
+     }
+     .title{
+      font-size: 25px;;
+     }
+     .main-content{
+      font-size: 20px;;
+     }
+     .know-more-Btn{
+      width:40%;
+      padding:4px 0px; 
+     }
+ }
+ @media screen and (max-width:1199px){
+    .right-section{
+        width:100%;
+        /*padding:0px;*/
+    }
+    .title{
+        margin-left:20px;
+        vertical-align: middle;
+    }
+    .main-content{
+        margin-bottom:30px;
+    }
+    .fax-email{
+      padding-top:30px;
+      width:80%;
+      border-left:transparent;
+      border-top:1px solid rgba(0, 0, 0,0.4);
+    }
+    /*.message-symb-title{
+     display:none;
+   }*/
+   .implementation::after{
+      
+      content:"";
+      margin-left:40px;
+   }
+ }
+ @media screen and (min-width:1200px){
+    .contact{
+        margin-right:0px;
+    }
+    .video{
+      width:95%;
+      border-radius:7px;
+   }
+   .microsoft-video,.power-bi{
+      text-align: right;
+   }
+ }
